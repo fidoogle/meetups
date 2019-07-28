@@ -21,10 +21,10 @@ new Vue({
   render: h => h(App),
   created () {
     firebase.initializeApp({
-      apiKey: 'AIzaSyCFYWd6FpR53u4hSPXQSjOYeZNPF1FxG2M',
-      authDomain: 'yt-devmeetup.firebaseapp.com',
-      databaseURL: 'https://yt-devmeetup.firebaseio.com',
-      projectId: 'yt-devmeetup',
+      apiKey: 'AIzaSyDnnUjly0U1LU5kh3jPGAHWvGF0DeSL_LU',
+      authDomain: 'devmeetup-e8dc8.firebaseapp.com',
+      databaseURL: 'https://devmeetup-e8dc8.firebaseio.com',
+      projectId: 'devmeetup-e8dc8',
       storageBucket: ''
     })
     firebase.auth().onAuthStateChanged((user) => {
